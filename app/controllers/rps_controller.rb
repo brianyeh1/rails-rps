@@ -1,4 +1,4 @@
-class RPSController < ApplicationController
+class RpsController < ApplicationController
   def home
     render({:template => "game_templates/homepage"})
   end
